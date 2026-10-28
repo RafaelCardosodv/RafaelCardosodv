@@ -1,60 +1,68 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,16,23&height=180&section=header&text=%20&fontSize=42&fontAlignY=38" width="100%"/>
-
-  <!-- Efeito de Digitação Animado (Cyberpunk / Neon) -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=%E2%9A%A1+Frontend+Developer;Crafting+Fluid+%26+Modern+UI%2FUX;React+%E2%80%A2+Next.js+%E2%80%A2+TypeScript;Transformando+ideias+em+interfaces+reais." alt="Typing SVG" />
-  </a>
-
-  <p align="center">
-    <a href="mailto:rscardosorgm@gmail.com">
-      <img src="https://img.shields.io/badge/Email-rscardosorgm%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <h1>Rafael Cardoso</h1>
+  <p>
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=18&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Frontend+Developer;Especialista+em+React+%E2%80%A2+Next.js+%E2%80%A2+TypeScript;Construindo+interfaces+modernas+e+acess%C3%ADveis" alt="Typing SVG" />
     </a>
-    <a href="https://github.com/RafaelCardosodv" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-RafaelCardosodv-00F5FF?style=for-the-badge&logo=github&logoColor=black" alt="GitHub" />
+  </p>
+
+  <p>
+    <a href="mailto:rscardosorgm@gmail.com">
+      <img src="https://img.shields.io/badge/Email-rscardosorgm%40gmail.com-18181b?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" />
+    </a>
+    <a href="https://github.com/RafaelCardosodv">
+      <img src="https://img.shields.io/badge/GitHub-RafaelCardosodv-18181b?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
     </a>
   </p>
 
 </div>
 
----
+<br/>
 
-### 👾 Sobre Mim
-
-```javascript
-const rafael = {
-  nome: "Rafael Cardoso",
-  cargo: "Frontend Developer",
-  foco: "Criação de interfaces modernas, intuitivas e de alta performance",
-  stacks: ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS"],
-  interesses: ["Design Systems", "UI/UX", "Acessibilidade Web", "Clean Code"]
-};
-```
-
-* 🚀 Desenvolvendo soluções frontend modernas com foco em experiência do usuário e performance.
-* 🎨 Apaixonado por transformar protótipos e ideias em código limpo, componentizado e escalável.
-* 💡 Sempre em busca de aprender novas tecnologias e boas práticas do ecossistema web.
-
----
-
-### 🛠️ Tech Stack & Ferramentas
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,styledcomponents,vite,redux,figma,git,github,vscode&theme=dark" alt="Tech Stack" />
-</div>
-
----
-
-### 📊 Estatísticas do GitHub
-
-<div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=RafaelCardosodv&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F5FF&icon_color=FF007F" alt="GitHub Stats" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelCardosodv&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F5FF" alt="Top Languages" />
-</div>
+<!-- ESTRUTURA BENTO GRID -->
+<table align="center" width="100%">
+  <tr>
+    <!-- Bloco 1: Quem sou eu -->
+    <td width="60%" valign="top">
+      <h3>🚀 Sobre Mim</h3>
+      <p>Desenvolvedor focado no ecossistema <strong>Frontend moderno</strong>. Crio interfaces fluidas, responsivas e focadas na experiência do usuário, aliando design clean com arquitetura escalável.</p>
+      <ul>
+        <li>🎯 <strong>Foco:</strong> Single Page Apps, Server-Side Rendering e Design Systems.</li>
+        <li>💡 <strong>Prioridades:</strong> Performance web, acessibilidade e componentização limpa.</li>
+      </ul>
+    </td>
+    <!-- Bloco 2: Em que estou trabalhando -->
+    <td width="40%" valign="top">
+      <h3>⚡ Em Foco</h3>
+      <p>🛠️ <strong>Estudos:</strong> Next.js App Router, Server Actions & Tailwind CSS v4</p>
+      <p>🌱 <strong>Prática:</strong> Projetos práticos e componentização modular</p>
+      <p>💬 <strong>Aberto para:</strong> Parcerias em projetos e open-source</p>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-<!-- Rodapé Neon com Onda Suave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,16,23&height=100&section=footer" width="100%"/>
+### 🛠️ Stacks & Ferramentas
+
+| Categoria | Tecnologias |
+| :--- | :--- |
+| **Core & Frameworks** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs&theme=dark" height="32" alt="Core" /></a> |
+| **Estilização & UI** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=tailwind,sass,styledcomponents,figma&theme=dark" height="32" alt="Styling" /></a> |
+| **Build & Ferramentas** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=vite,git,github,vscode,vercel&theme=dark" height="32" alt="Tools" /></a> |
+
+<br/>
+
+### 📌 Projetos em Destaque
+
+| Projeto | Descrição | Stack | Status |
+| :--- | :--- | :--- | :---: |
+| 🌐 **[Portfólio Pessoal](https://github.com/RafaelCardosodv)** | Interface moderna apresentando projetos, skills e trajetória. | `React` `Next.js` `Tailwind` | 🟢 Ativo |
+| ⚡ **[Projeto Frontend 01](https://github.com/RafaelCardosodv)** | Aplicação web com consumo de API externa e estado global. | `TypeScript` `React` `Vite` | 🛠️ Em dev |
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RafaelCardosodv&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity Graph" />
+</div>
