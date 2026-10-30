@@ -1,40 +1,52 @@
 <div align="center">
 
-  # Olá, eu sou o Rafael Cardoso 👋
+  <!-- Header: Bat-sinal sobre Gotham -->
+  <img src="./assets/batman-header.svg" width="100%" alt="Rafael Cardoso — Frontend Developer · Gotham Division" />
+
+  <br/>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=%E2%9A%A1+Frontend+Developer;Crafting+Modern+%26+Fluid+UI%2FUX;React+%E2%80%A2+Next.js+%E2%80%A2+TypeScript;Transformando+ideias+em+interfaces+reais." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FFD700&center=true&vCenter=true&width=650&lines=%F0%9F%A6%87+Eu+sou+a+noite.+Eu+sou+o+Frontend.;React+%E2%80%A2+Next.js+%E2%80%A2+TypeScript;Protegendo+Gotham+de+interfaces+quebradas.;Construindo+UIs+dignas+da+Batcaverna." alt="Typing SVG" />
   </a>
 
-  <br/>
-
-  <!-- Divisor Neon Animado -->
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900" alt="Neon Divider" />
-
-  <br/>
+  <br/><br/>
 
   <p align="center">
     <a href="mailto:rscardosorgm@gmail.com">
-      <img src="https://img.shields.io/badge/Email-rscardosorgm%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-rscardosorgm%40gmail.com-0b0b10?style=for-the-badge&logo=gmail&logoColor=FFD700&labelColor=000000" alt="Email" />
     </a>
     <a href="https://github.com/RafaelCardosodv">
-      <img src="https://img.shields.io/badge/GitHub-RafaelCardosodv-0f172a?style=for-the-badge&logo=github&logoColor=00F5FF" alt="GitHub" />
+      <img src="https://img.shields.io/badge/GitHub-RafaelCardosodv-0b0b10?style=for-the-badge&logo=github&logoColor=FFD700&labelColor=000000" alt="GitHub" />
     </a>
+    <img src="https://img.shields.io/badge/Status-Patrulhando_Gotham-FFD700?style=for-the-badge&labelColor=000000" alt="Status" />
+    <img src="https://komarev.com/ghpvc/?username=RafaelCardosodv&label=Visitas+na+Batcaverna&color=FFD700&style=for-the-badge&labelColor=000000" alt="Visitas" />
   </p>
+
+  <img src="./assets/bat-divider.svg" width="100%" alt="divider" />
 
 </div>
 
----
+### 🦇 Arquivo da Batcaverna
 
-### 🚀 Sobre Mim
+```yaml
+# BATCOMPUTER :: ARQUIVO CONFIDENCIAL
+codinome:   Rafael Cardoso
+funcao:     Frontend Developer
+base:       Batcaverna (localhost:3000)
+arsenal:    [React, Next.js, TypeScript, Tailwind CSS]
+missao:     Criar interfaces modernas, responsivas e acessíveis
+status:     "🟡 Patrulhando o código de Gotham"
+```
 
 * 💻 Desenvolvedor focado em **Frontend Moderno**, interfaces responsivas e acessíveis.
 * 🎨 Foco em **React**, **Next.js**, **TypeScript** e **Tailwind CSS**.
-* ⚡ Apaixonado por criar experiências web com alta performance, micro-animações e design limpo.
+* ⚡ Apaixonado por criar experiências web com alta performance, micro-animações e design limpo — rápido e silencioso como o Cavaleiro das Trevas.
 
----
+<div align="center">
+  <img src="./assets/bat-divider.svg" width="100%" alt="divider" />
+</div>
 
-### 🛠️ Tecnologias & Ferramentas
+### 🛠️ Cinto de Utilidades
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -42,29 +54,38 @@
   </a>
 </p>
 
----
-
-### 🏙️ Gráfico de Contribuições em 3D
-
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph" />
+  <img src="./assets/bat-divider.svg" width="100%" alt="divider" />
 </div>
 
----
-
-### 🐍 Snake Game (Contribuições Animadas)
+### 📡 Batcomputador
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RafaelCardosodv/RafaelCardosodv/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RafaelCardosodv/RafaelCardosodv/output/github-snake.svg">
-    <img alt="Snake Game" src="https://raw.githubusercontent.com/RafaelCardosodv/RafaelCardosodv/output/github-snake.svg" width="100%">
-  </picture>
+  <img src="https://streak-stats.demolab.com?user=RafaelCardosodv&locale=pt_BR&background=0B0B10&border=FFD700&stroke=FFD700&ring=FFD700&fire=FFD700&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFD700&sideLabels=FFD700&dates=8B949E&border_radius=12" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="./assets/bat-divider.svg" width="100%" alt="divider" />
+</div>
+
+### 🏙️ Gotham City em 3D
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-batman.svg" width="100%" alt="3D Contribution Graph" />
+</div>
+
+<div align="center">
+  <img src="./assets/bat-divider.svg" width="100%" alt="divider" />
+</div>
+
+### 🦇 Patrulha Noturna
+
+<div align="center">
+  <img alt="Snake Game" src="https://raw.githubusercontent.com/RafaelCardosodv/RafaelCardosodv/output/github-snake-batman.svg" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
-  <!-- Rodapé Divisor Neon Animado -->
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900" alt="Neon Divider" />
+  <img src="./assets/batman-footer.svg" width="100%" alt="Não é quem eu sou por dentro, e sim o que eu faço que me define. — Batman" />
 </div>

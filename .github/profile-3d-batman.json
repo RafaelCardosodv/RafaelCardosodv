@@ -1,0 +1,19 @@
+[
+  {
+    "type": "normal",
+    "fileName": "profile-batman.svg",
+    "backgroundColor": "#0b0b10",
+    "foregroundColor": "#e6e6e6",
+    "strongColor": "#FFD700",
+    "weakColor": "#8b949e",
+    "radarColor": "#FFD700",
+    "growingAnimation": true,
+    "contribColors": [
+      "#1a1a22",
+      "#5c4a00",
+      "#9c7c00",
+      "#d4a800",
+      "#FFD700"
+    ]
+  }
+]
