@@ -1,115 +1,106 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320">
   <defs>
-    <radialGradient id="sky" cx="75%" cy="25%" r="90%">
-      <stop offset="0%" stop-color="#1f1f2b"/>
-      <stop offset="55%" stop-color="#0b0b10"/>
+    <radialGradient id="sky" cx="78%" cy="28%" r="85%">
+      <stop offset="0%" stop-color="#121216"/>
+      <stop offset="50%" stop-color="#07070a"/>
       <stop offset="100%" stop-color="#000000"/>
     </radialGradient>
     <radialGradient id="signal" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFF2A8"/>
-      <stop offset="70%" stop-color="#FFD700"/>
-      <stop offset="100%" stop-color="#E0A800" stop-opacity="0.85"/>
+      <stop offset="0%" stop-color="#b39a4c"/>
+      <stop offset="75%" stop-color="#7d6a2e"/>
+      <stop offset="100%" stop-color="#3a3115" stop-opacity="0.8"/>
     </radialGradient>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#b8962e" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#b8962e" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="beam" x1="1" y1="1" x2="0" y2="0">
-      <stop offset="0%" stop-color="#FFE680" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#FFD700" stop-opacity="0.08"/>
+      <stop offset="0%" stop-color="#b8962e" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#b8962e" stop-opacity="0.03"/>
     </linearGradient>
     <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFE45C"/>
-      <stop offset="100%" stop-color="#E6A800"/>
+      <stop offset="0%" stop-color="#e8e8e8"/>
+      <stop offset="100%" stop-color="#7d7d7d"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.9"/>
     </linearGradient>
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6"/>
+      <feGaussianBlur stdDeviation="8"/>
     </filter>
     <path id="bat" d="M0 -9 L4 -9 L6 -17 L8 -8 C12 -8 13 -12 12 -16 C28 -14 44 -8 50 0 C44 -2 38 2 36 8 C32 4 24 4 20 10 C16 6 8 8 0 18 C-8 8 -16 6 -20 10 C-24 4 -32 4 -36 8 C-38 2 -44 -2 -50 0 C-44 -8 -28 -14 -12 -16 C-13 -12 -12 -8 -8 -8 L-6 -17 L-4 -9 Z"/>
     <style>
-      .twinkle { animation: tw 3s ease-in-out infinite; }
-      .t2 { animation-delay: 1s; } .t3 { animation-delay: 2s; }
-      @keyframes tw { 0%,100% { opacity: .2 } 50% { opacity: 1 } }
-      .beam { animation: pulse 4s ease-in-out infinite; }
-      @keyframes pulse { 0%,100% { opacity: .75 } 50% { opacity: 1 } }
-      .flicker { animation: fl 5s steps(1) infinite; }
-      .f2 { animation-delay: 1.7s; } .f3 { animation-delay: 3.1s; }
-      @keyframes fl { 0%,100% { opacity: 1 } 40% { opacity: .15 } 48% { opacity: 1 } 70% { opacity: .3 } }
-      .fadein { animation: fade 1.6s ease-out both; }
-      .d1 { animation-delay: .4s; } .d2 { animation-delay: .9s; }
-      @keyframes fade { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+      .twinkle { animation: tw 4s ease-in-out infinite; }
+      .t2 { animation-delay: 1.3s; } .t3 { animation-delay: 2.6s; }
+      @keyframes tw { 0%,100% { opacity: .1 } 50% { opacity: .55 } }
+      .beam { animation: pulse 6s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .6 } 50% { opacity: 1 } }
+      .flicker { animation: fl 7s steps(1) infinite; }
+      .f2 { animation-delay: 2.3s; } .f3 { animation-delay: 4.1s; }
+      @keyframes fl { 0%,100% { opacity: .7 } 40% { opacity: .1 } 48% { opacity: .7 } 70% { opacity: .2 } }
+      .fadein { animation: fade 2s ease-out both; }
+      .d1 { animation-delay: .5s; } .d2 { animation-delay: 1.1s; } .d3 { animation-delay: 1.8s; }
+      @keyframes fade { from { opacity: 0 } to { opacity: 1 } }
     </style>
   </defs>
 
-  <!-- Céu noturno de Gotham -->
+  <!-- Céu noturno -->
   <rect width="1000" height="320" rx="14" fill="url(#sky)"/>
 
-  <!-- Estrelas -->
-  <g fill="#ffffff">
-    <circle class="twinkle" cx="80" cy="40" r="1.2"/>
-    <circle class="twinkle t2" cx="210" cy="25" r="1"/>
-    <circle class="twinkle t3" cx="330" cy="60" r="1.3"/>
-    <circle class="twinkle" cx="450" cy="30" r="1"/>
-    <circle class="twinkle t2" cx="560" cy="70" r="1.2"/>
-    <circle class="twinkle t3" cx="620" cy="22" r="1"/>
-    <circle class="twinkle" cx="930" cy="45" r="1.1"/>
-    <circle class="twinkle t2" cx="980" cy="110" r="1"/>
-    <circle class="twinkle t3" cx="150" cy="95" r="0.9"/>
-    <circle class="twinkle" cx="400" cy="110" r="0.9"/>
+  <!-- Estrelas discretas -->
+  <g fill="#bfbfbf">
+    <circle class="twinkle" cx="80" cy="40" r="0.9"/>
+    <circle class="twinkle t2" cx="230" cy="28" r="0.8"/>
+    <circle class="twinkle t3" cx="350" cy="62" r="1"/>
+    <circle class="twinkle" cx="470" cy="32" r="0.8"/>
+    <circle class="twinkle t2" cx="580" cy="74" r="0.9"/>
+    <circle class="twinkle t3" cx="940" cy="40" r="0.9"/>
+    <circle class="twinkle" cx="160" cy="96" r="0.7"/>
   </g>
 
   <!-- Feixe do holofote -->
   <polygon class="beam" points="908,248 922,248 838,92 706,134" fill="url(#beam)"/>
 
-  <!-- Bat-sinal -->
-  <ellipse cx="765" cy="100" rx="120" ry="78" fill="url(#glow)"/>
-  <g filter="url(#blur)" opacity="0.6">
-    <ellipse cx="765" cy="100" rx="80" ry="52" fill="#FFD700"/>
+  <!-- Bat-sinal (apagado, sombrio) -->
+  <ellipse cx="765" cy="100" rx="130" ry="85" fill="url(#glow)"/>
+  <g filter="url(#blur)" opacity="0.35">
+    <ellipse cx="765" cy="100" rx="80" ry="52" fill="#8f7a3a"/>
   </g>
-  <ellipse cx="765" cy="100" rx="78" ry="50" fill="url(#signal)"/>
-  <use href="#bat" transform="translate(765 100) scale(1.25)" fill="#0a0a0a"/>
+  <ellipse cx="765" cy="100" rx="78" ry="50" fill="url(#signal)" opacity="0.9"/>
+  <use href="#bat" transform="translate(765 100) scale(1.25)" fill="#050505"/>
 
-  <!-- Morcegos voando -->
+  <!-- Morcegos -->
   <g fill="#000000">
-    <use href="#bat" transform="scale(0.22)">
-      <animateMotion dur="14s" repeatCount="indefinite" path="M-60 140 C 200 60, 450 160, 1080 70"/>
-    </use>
-    <use href="#bat" transform="scale(0.16)">
-      <animateMotion dur="18s" begin="4s" repeatCount="indefinite" path="M-60 90 C 300 150, 600 40, 1080 120"/>
+    <use href="#bat" transform="scale(0.18)">
+      <animateMotion dur="20s" repeatCount="indefinite" path="M-60 140 C 200 60, 450 160, 1080 70"/>
     </use>
     <use href="#bat" transform="scale(0.12)">
-      <animateMotion dur="11s" begin="7s" repeatCount="indefinite" path="M1060 60 C 800 120, 400 20, -60 100"/>
+      <animateMotion dur="26s" begin="8s" repeatCount="indefinite" path="M1060 60 C 800 120, 400 20, -60 100"/>
     </use>
   </g>
 
-  <!-- Skyline de Gotham -->
-  <path fill="#050505" d="M0 320 L0 262 L30 262 L30 240 L55 240 L55 262 L70 262 L70 222 L82 210 L94 222 L94 270 L120 270 L120 232 L150 232 L150 255 L175 255 L175 205 L185 190 L195 205 L195 262 L230 262 L230 245 L260 245 L260 228 L290 228 L290 266 L320 266 L320 212 L332 212 L332 198 L344 198 L344 212 L356 212 L356 262 L390 262 L390 240 L420 240 L420 270 L450 270 L450 226 L470 226 L470 252 L505 252 L505 216 L520 200 L535 216 L535 266 L570 266 L570 236 L600 236 L600 258 L630 258 L630 208 L660 208 L660 262 L690 262 L690 244 L720 244 L720 270 L750 270 L750 226 L780 226 L780 262 L810 262 L810 240 L840 240 L840 262 L880 262 L880 252 L950 252 L950 236 L975 236 L975 262 L1000 262 L1000 320 Z"/>
-  <!-- Holofote no telhado -->
-  <rect x="903" y="246" width="24" height="8" rx="2" fill="#1a1a1a" stroke="#FFD700" stroke-width="1"/>
+  <!-- Skyline -->
+  <path fill="#030303" d="M0 320 L0 262 L30 262 L30 240 L55 240 L55 262 L70 262 L70 222 L82 210 L94 222 L94 270 L120 270 L120 232 L150 232 L150 255 L175 255 L175 205 L185 190 L195 205 L195 262 L230 262 L230 245 L260 245 L260 228 L290 228 L290 266 L320 266 L320 212 L332 212 L332 198 L344 198 L344 212 L356 212 L356 262 L390 262 L390 240 L420 240 L420 270 L450 270 L450 226 L470 226 L470 252 L505 252 L505 216 L520 200 L535 216 L535 266 L570 266 L570 236 L600 236 L600 258 L630 258 L630 208 L660 208 L660 262 L690 262 L690 244 L720 244 L720 270 L750 270 L750 226 L780 226 L780 262 L810 262 L810 240 L840 240 L840 262 L880 262 L880 252 L950 252 L950 236 L975 236 L975 262 L1000 262 L1000 320 Z"/>
+  <rect x="903" y="246" width="24" height="8" rx="2" fill="#111111" stroke="#5e4f22" stroke-width="1"/>
 
-  <!-- Janelas acesas -->
-  <g fill="#FFD700">
-    <rect class="flicker" x="76" y="232" width="4" height="5"/>
-    <rect x="84" y="246" width="4" height="5" opacity=".8"/>
-    <rect class="flicker f2" x="180" y="215" width="4" height="5"/>
-    <rect x="182" y="235" width="4" height="5" opacity=".7"/>
-    <rect class="flicker f3" x="268" y="240" width="4" height="5"/>
-    <rect x="337" y="220" width="4" height="5" opacity=".8"/>
-    <rect class="flicker" x="345" y="238" width="4" height="5"/>
-    <rect x="458" y="236" width="4" height="5" opacity=".7"/>
-    <rect class="flicker f2" x="515" y="224" width="4" height="5"/>
-    <rect x="522" y="244" width="4" height="5" opacity=".8"/>
-    <rect class="flicker f3" x="640" y="220" width="4" height="5"/>
-    <rect x="648" y="238" width="4" height="5" opacity=".7"/>
-    <rect class="flicker" x="760" y="238" width="4" height="5"/>
-    <rect x="958" y="246" width="4" height="5" opacity=".8"/>
+  <!-- Janelas (poucas e fracas) -->
+  <g fill="#8f7a3a">
+    <rect class="flicker" x="76" y="232" width="3" height="4"/>
+    <rect class="flicker f2" x="180" y="215" width="3" height="4"/>
+    <rect x="337" y="220" width="3" height="4" opacity=".4"/>
+    <rect class="flicker f3" x="515" y="224" width="3" height="4"/>
+    <rect x="648" y="238" width="3" height="4" opacity=".4"/>
+    <rect class="flicker" x="760" y="238" width="3" height="4"/>
   </g>
-  <rect x="0" y="316" width="1000" height="4" fill="#FFD700" opacity=".9"/>
+  <rect x="0" y="200" width="1000" height="120" fill="url(#fog)"/>
+  <rect x="0" y="318" width="1000" height="2" fill="#5e4f22"/>
+
   <!-- Texto -->
   <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
-    <text class="fadein" x="60" y="110" fill="#8B949E" font-size="15" font-weight="600" letter-spacing="6">BEM-VINDO À BATCAVERNA</text>
-    <text class="fadein d1" x="56" y="170" fill="url(#title)" font-size="58" font-weight="900" letter-spacing="3">RAFAEL CARDOSO</text>
-    <text class="fadein d2" x="60" y="205" fill="#E6E6E6" font-size="18" font-weight="500" letter-spacing="4">FRONTEND DEVELOPER <tspan fill="#FFD700">|</tspan> GOTHAM DIVISION</text>
+    <text class="fadein" x="60" y="100" fill="#6e6e6e" font-size="14" font-weight="600" letter-spacing="6">DESENVOLVEDOR WEB</text>
+    <text class="fadein d1" x="56" y="158" fill="url(#title)" font-size="58" font-weight="900" letter-spacing="3">RAFAEL CARDOSO</text>
+    <text class="fadein d2" x="60" y="192" fill="#a8a8a8" font-size="16" font-weight="500" letter-spacing="4">FOCO EM FRONTEND <tspan fill="#8f7a3a">|</tspan> REACT · NEXT.JS · TYPESCRIPT</text>
+    <text class="fadein d3" x="60" y="232" fill="#8f7a3a" font-size="16" font-style="italic" letter-spacing="1">“Eu tenho um poder. Eu nunca desisto.”</text>
   </g>
-
 </svg>

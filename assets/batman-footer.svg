@@ -1,28 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a1a24"/>
+      <stop offset="0%" stop-color="#0c0c0f"/>
       <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
     <style>
-      .q { animation: f 2.5s ease-out both; }
+      .q { animation: f 3s ease-out both; }
       @keyframes f { from { opacity: 0 } to { opacity: 1 } }
     </style>
   </defs>
   <rect width="1000" height="150" rx="14" fill="url(#bg)"/>
   <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" text-anchor="middle" class="q">
-    <text x="500" y="42" fill="#FFD700" font-size="19" font-style="italic" font-weight="600">“Não é quem eu sou por dentro, e sim o que eu faço que me define.”</text>
-    <text x="500" y="66" fill="#8B949E" font-size="13" letter-spacing="4">— BATMAN</text>
+    <text x="500" y="44" fill="#c8c8c8" font-size="19" font-style="italic" font-weight="500">“Por que caímos? Para que possamos aprender a nos levantar.”</text>
+    <text x="500" y="68" fill="#7a6830" font-size="12" letter-spacing="5">— BATMAN BEGINS</text>
   </g>
-  <path fill="#121218" d="M0 150 L0 122 L40 122 L40 104 L70 104 L70 126 L95 126 L95 94 L108 82 L121 94 L121 128 L160 128 L160 110 L200 110 L200 124 L240 124 L240 98 L262 98 L262 128 L300 128 L300 112 L340 112 L340 92 L352 80 L364 92 L364 126 L410 126 L410 106 L450 106 L450 128 L490 128 L490 100 L510 88 L530 100 L530 126 L570 126 L570 110 L610 110 L610 96 L640 96 L640 128 L680 128 L680 106 L720 106 L720 124 L760 124 L760 92 L776 80 L792 92 L792 126 L830 126 L830 110 L870 110 L870 128 L910 128 L910 100 L940 100 L940 122 L1000 122 L1000 150 Z"/>
-  <g fill="#FFD700">
-    <rect x="104" y="100" width="4" height="5"/>
-    <rect x="248" y="108" width="4" height="5" opacity=".7"/>
-    <rect x="350" y="98" width="4" height="5"/>
-    <rect x="508" y="104" width="4" height="5" opacity=".8"/>
-    <rect x="622" y="106" width="4" height="5"/>
-    <rect x="774" y="98" width="4" height="5" opacity=".7"/>
-    <rect x="922" y="110" width="4" height="5"/>
+  <path fill="#0e0e11" d="M0 150 L0 122 L40 122 L40 104 L70 104 L70 126 L95 126 L95 94 L108 82 L121 94 L121 128 L160 128 L160 110 L200 110 L200 124 L240 124 L240 98 L262 98 L262 128 L300 128 L300 112 L340 112 L340 92 L352 80 L364 92 L364 126 L410 126 L410 106 L450 106 L450 128 L490 128 L490 100 L510 88 L530 100 L530 126 L570 126 L570 110 L610 110 L610 96 L640 96 L640 128 L680 128 L680 106 L720 106 L720 124 L760 124 L760 92 L776 80 L792 92 L792 126 L830 126 L830 110 L870 110 L870 128 L910 128 L910 100 L940 100 L940 122 L1000 122 L1000 150 Z"/>
+  <g fill="#7a6830">
+    <rect x="104" y="100" width="3" height="4" opacity=".6"/>
+    <rect x="350" y="98" width="3" height="4" opacity=".4"/>
+    <rect x="622" y="106" width="3" height="4" opacity=".6"/>
+    <rect x="922" y="110" width="3" height="4" opacity=".4"/>
   </g>
-  <rect x="0" y="146" width="1000" height="4" fill="#FFD700" opacity=".9"/>
+  <rect x="0" y="148" width="1000" height="2" fill="#5e4f22"/>
 </svg>

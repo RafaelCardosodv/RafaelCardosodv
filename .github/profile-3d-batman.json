@@ -2,18 +2,18 @@
   {
     "type": "normal",
     "fileName": "profile-batman.svg",
-    "backgroundColor": "#0b0b10",
-    "foregroundColor": "#e6e6e6",
-    "strongColor": "#FFD700",
-    "weakColor": "#8b949e",
-    "radarColor": "#FFD700",
+    "backgroundColor": "#050507",
+    "foregroundColor": "#a8a8a8",
+    "strongColor": "#8F7A3A",
+    "weakColor": "#5e5e5e",
+    "radarColor": "#8F7A3A",
     "growingAnimation": true,
     "contribColors": [
-      "#1a1a22",
-      "#5c4a00",
-      "#9c7c00",
-      "#d4a800",
-      "#FFD700"
+      "#121215",
+      "#2e2814",
+      "#4a3f1c",
+      "#6b5a28",
+      "#8F7A3A"
     ]
   }
 ]
